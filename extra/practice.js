@@ -190,6 +190,8 @@ console.log('I am ' + String(23) + ' years old.');
 
 // 5 Falsy Values: 0, '', NaN, undefined, null
 
+/*
+
 console.log(Boolean(0));
 console.log(Boolean(undefined));
 console.log(Boolean('Sadhan'));
@@ -209,3 +211,27 @@ if (height) {
 } else {
     console.log(`Height is not defined!`);
 }
+
+*/
+
+
+ console.log("Hello World I am learning JavaScript.");
+ console.log("I am "  + String(23)  + " years old");
+ console.log(String(23)); // type coercion
+
+
+ console.log('23', 23); 
+ console.log(Number('23')+23);
+ console.log('23'-'10'-4);
+
+
+ console.log (Number('NBICT'));
+
+ console.log(typeof(true));
+
+ console.log(typeof NaN);
+
+ console.log('23'+'10'+4);
+
+ console.log('23'*'2');
+
