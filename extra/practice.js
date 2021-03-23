@@ -213,7 +213,7 @@ if (height) {
 }
 
 */
-
+/*
 
  console.log("Hello World I am learning JavaScript.");
  console.log("I am "  + String(23)  + " years old");
@@ -234,4 +234,50 @@ if (height) {
  console.log('23'+'10'+4);
 
  console.log('23'*'2');
+ //
 
+console.log('Hello world I am learning Javascript')
+console.log('I am ' + String(23) + ' years old ');
+console.log(String(23));
+console.log('23',23);
+console.log(Number('23')+23);
+console.log('23'-'10'-4);
+console.log(Number('NBICT'));
+console.log(typeof('true'));
+console.log(typeof(True));
+console.log(typeof NaN);
+console.log('23'+'10'+'4');
+console.log(23*2); //           */
+// console.log(Boolean(true));
+// let myName;
+// console.log(myName);
+// console.log(Boolean(myName));
+// console.log(Boolean({}));
+// console.log(Boolean(''));
+/*
+const money=0;
+if(money){
+    console.log('Do not spend it all');
+}
+else{
+    console.log('You should get a job');
+}
+*/
+/*
+const age =18;
+if(age!==18)console.log('You are not adult enough');
+*/
+
+const password = Number(prompt('Enter Password:'));
+if(password===123){
+    console.log('Welcom!  sadhon!!');
+}
+else if (password===456){
+    console.log("welcome to motin")
+}
+else if (password===789){
+    console.log("Welcome to sofiul");
+}
+else{
+    console.log('Wrong password');
+}
