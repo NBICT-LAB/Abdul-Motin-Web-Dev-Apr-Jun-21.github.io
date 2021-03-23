@@ -15,25 +15,51 @@
                     line-height:2;
                     font-size:20; 
                     } 
-       .table_header_first{
+       .cell_first{
                     Display :table-cell;
                     width:270;
                     } 
-     .header_coloum {
+         .cell {
                    Display :table-cell;
                    width:200;
-                    }                                 
+                    } 
+     .wrapper_outside{
+                  background-color:#C4D3F6;
+                  height:200vh;
+                  display:flex;
+                  align-items:center;
+                  justify-content:center;
+               }  
+      .row_styles{
+                  background-color:white; 
+                  line-height:1.2;
+                  padding-top:20px;
+                   padding-bottom:20px;
+                   border-bottom:1.2px solid;
+               }                                                      
     </Style>
 </head>
       <body style="margin:0px;">
-         <div style="background-color:#C4D3F6;height:200vh;display:flex;align-items:center;justify-content:center;">
+         <div class="wrapper_outside">
             <div class="table_wrapper">
             <div class="table_header">
-            <div class="table_header_first"> Full Name   </div>
-            <div class="header_coloum ">Student Id  </div>
-            <div class="header_coloum">Father's Name  </div>
-            <div class="header_coloum">Mobile No   </div>
+            <div class="cell_first"> Full Name   </div>
+            <div class="cell ">Student Id  </div>
+            <div class="cell">Father's Name  </div>
+            <div class="cell">Mobile No   </div>
             </div>
+            <div class="row_styles">
+            <div class="cell_first"> Md Tariqul Islam   </div>
+            <div class="cell ">1802221 </div>
+            <div class="cell">Md Doriman ALi </div>
+            <div class="cell">01786803674   </div>
+         </div> 
+         <div class=" row_styles">
+            <div class="cell_first"> Md Abdul Motin   </div>
+            <div class="cell ">1802220 </div>
+            <div class="cell">Md Doriman ALi </div>
+            <div class="cell">01773255415   </div>
+            </div>          
 		   </div>
         </div>      
 	 </body>
