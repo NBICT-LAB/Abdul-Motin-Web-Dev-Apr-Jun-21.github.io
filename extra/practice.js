@@ -213,8 +213,8 @@ if (height) {
 }
 
 */
-/*
 
+/*
  console.log("Hello World I am learning JavaScript.");
  console.log("I am "  + String(23)  + " years old");
  console.log(String(23)); // type coercion
@@ -247,14 +247,14 @@ console.log(typeof('true'));
 console.log(typeof(True));
 console.log(typeof NaN);
 console.log('23'+'10'+'4');
-console.log(23*2); //           */
-// console.log(Boolean(true));
-// let myName;
-// console.log(myName);
-// console.log(Boolean(myName));
-// console.log(Boolean({}));
-// console.log(Boolean(''));
-/*
+console.log(23*2); //  new program         
+console.log(Boolean(true));
+let myName;
+console.log(myName);
+console.log(Boolean(myName));
+console.log(Boolean({}));
+console.log(Boolean(''));
+
 const money=0;
 if(money){
     console.log('Do not spend it all');
@@ -262,11 +262,11 @@ if(money){
 else{
     console.log('You should get a job');
 }
-*/
-/*
+
+
 const age =18;
 if(age!==18)console.log('You are not adult enough');
-*/
+
 
 const password = Number(prompt('Enter Password:'));
 if(password===123){
@@ -281,3 +281,33 @@ else if (password===789){
 else{
     console.log('Wrong password');
 }
+console.log(typeof(4));
+*/
+let dolphinFirstScore = Number(prompt('Enter Dolphin first score:'));
+
+let dolphinSecondScore = Number(prompt('Enter Dolphin second score:'));
+
+let dolphinThirdScore = Number(prompt('Enter Dolphin third score:'));
+
+let KualaFirstScore = Number(prompt('Enter Kualas first score:'));
+
+let KualaSecondScore = Number(prompt('Enter Kualas second score:'));
+
+let KualaThirdScore = Number(prompt('Enter Kualas third score:'));
+
+let DolphinAverageScore = (dolphinFirstScore + dolphinSecondScore + dolphinThirdScore) / 3;
+
+let KualaAverageScore = (KualaFirstScore + KualaSecondScore + KualaThirdScore) / 3;
+
+console.log(`Dolphins Average Score ${DolphinAverageScore}.`);
+
+console.log(`Kuala Average Score ${KualaAverageScore}.`);
+
+if(DolphinAverageScore > KualaAverageScore){
+    console.log(`Dolphin is the winner`);
+}else if(DolphinAverageScore < KualaAverageScore){
+    console.log(`Kuala is the winner`);
+}else{console.log(`Draw!!!`);
+
+}
+
