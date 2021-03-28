@@ -283,41 +283,11 @@ else{
 }
 console.log(typeof(4));
 */
-/*
 
-let dolphinFirstScore = Number(prompt('Enter Dolphin first score:'));
 
-let dolphinSecondScore = Number(prompt('Enter Dolphin second score:'));
 
-let dolphinThirdScore = Number(prompt('Enter Dolphin third score:'));
 
-let KualaFirstScore = Number(prompt('Enter Kualas first score:'));
-
-let KualaSecondScore = Number(prompt('Enter Kualas second score:'));
-
-let KualaThirdScore = Number(prompt('Enter Kualas third score:'));
-
-let DolphinAverageScore = (dolphinFirstScore + dolphinSecondScore + dolphinThirdScore) / 3;
-
-let KualaAverageScore = (KualaFirstScore + KualaSecondScore + KualaThirdScore) / 3;
-
-console.log(`Dolphins Average Score ${DolphinAverageScore}.`);
-
-console.log(`Kuala Average Score ${KualaAverageScore}.`);
-
-if(DolphinAverageScore > KualaAverageScore){
-    console.log(`Dolphin is the winner`);
-}else if(DolphinAverageScore < KualaAverageScore)
-{
-    console.log(`Kuala is the winner`);
-}
-else
-{
-    console.log(`Draw!!!`);
-}
-*/
- 
-
+ /*
 let MotinsWeightinkg =Number(prompt("Enter Motins Weight"));
 let Motinsheightincm =Number(prompt("Enter motins height"));
 
@@ -343,3 +313,31 @@ else
 {
     console.log(`Draw`);
 }
+*/
+
+let dophinsfirstscore=Number(prompt("Enter dolphins first score"));
+let dolphinsecondscore=Number(prompt("Enter dolphins second score"));
+let dolphinthirdscore=Number(prompt("Enter dolphins third score"));
+
+let kualasecondscore=Number(prompt("Enter kualas first score"));
+let kualansecondscore=Number(prompt("Enter kualas second score"));
+let kualathirdscore=Number(prompt("Enter kualas third score"));
+
+let dolphinaveragescore=(dophinsfirstscore+dolphinsecondscore+dolphinthirdscore)/3 ;
+{
+console.log(`dolphinaveragescore ${dolphinaveragescore}`);
+}
+let kualaaveragescore=( kualasecondscore+kualansecondscore+kualasecondscore)/3 ;
+console.log(`kualaaveragescore ${kualaaveragescore}`);
+if((dolphinaveragescore>kualaaveragescore)&&(dolphinaveragescore>=100))
+{
+    console.log(`dolphin is the winner`);
+}
+else if ((dolphinaveragescore<kualaaveragescore)&&(kualaaveragescore>=100))
+{
+console.log(`kuala is the winner`);
+}
+else if ((dolphinaveragescore===kualaaveragescore)&&(dolphinaveragescore>=100)&&(kualaaveragescore>=100))
+   console.log( `it is draw`);
+else
+console.log(`It is no winner`);
