@@ -283,6 +283,8 @@ else{
 }
 console.log(typeof(4));
 */
+/*
+
 let dolphinFirstScore = Number(prompt('Enter Dolphin first score:'));
 
 let dolphinSecondScore = Number(prompt('Enter Dolphin second score:'));
@@ -305,9 +307,39 @@ console.log(`Kuala Average Score ${KualaAverageScore}.`);
 
 if(DolphinAverageScore > KualaAverageScore){
     console.log(`Dolphin is the winner`);
-}else if(DolphinAverageScore < KualaAverageScore){
+}else if(DolphinAverageScore < KualaAverageScore)
+{
     console.log(`Kuala is the winner`);
-}else{console.log(`Draw!!!`);
-
 }
+else
+{
+    console.log(`Draw!!!`);
+}
+*/
+ 
 
+let MotinsWeightinkg =Number(prompt("Enter Motins Weight"));
+let Motinsheightincm =Number(prompt("Enter motins height"));
+
+let SaifulsWeightinkg =Number(prompt('Saifuls Weight'));
+let Saifulsheightincm =Number(prompt("Saifuls height"));
+
+
+let MotinsBMI =(MotinsWeightinkg /(Motinsheightincm*Motinsheightincm));
+let SaifulsBMI =( SaifulsWeightinkg /( Saifulsheightincm*Saifulsheightincm));
+
+console.log(`Motins BMI ${MotinsBMI}.`);
+console.log(`Saifuls BMI ${SaifulsBMI}.`);
+
+if(MotinsBMI>SaifulsBMI)
+{
+    console.log(`Motin is larger`);
+}
+else if(MotinsBMI<SaifulsBMI)
+{
+    console.log(`Saiful is larger`);
+}
+else
+{
+    console.log(`Draw`);
+}
