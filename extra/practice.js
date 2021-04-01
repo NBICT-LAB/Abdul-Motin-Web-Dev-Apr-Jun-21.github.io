@@ -314,7 +314,7 @@ else
     console.log(`Draw`);
 }
 */
-
+/*
 let dophinsfirstscore=Number(prompt("Enter dolphins first score"));
 let dolphinsecondscore=Number(prompt("Enter dolphins second score"));
 let dolphinthirdscore=Number(prompt("Enter dolphins third score"));
@@ -341,3 +341,30 @@ else if ((dolphinaveragescore===kualaaveragescore)&&(dolphinaveragescore>=100)&&
    console.log( `it is draw`);
 else
 console.log(`It is no winner`);
+*/
+
+const day = prompt('Enter the day');
+  {
+      if (day=='monday')
+          console.log('Take preparation for online classes');
+    else if (day=='tuesday')
+          console.log('Take exam preparation ');
+    else if(day=='wednesday')
+          console.log('Visiting outside');
+    else if(day=='thursday')      
+          console.log('making video tutorial');
+    else if(day=='friday')
+          console.log('Hangout with friends');
+    else if (day=='saturday')
+         console.log('office management');
+    else if (day=='sunday')     
+         console.log('Teaching offline');
+     else
+         console.log('Invalid day');
+        
+ }
+
+
+
+
+
