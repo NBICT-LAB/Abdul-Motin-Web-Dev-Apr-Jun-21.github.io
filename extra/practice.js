@@ -319,15 +319,15 @@ let dophinsfirstscore=Number(prompt("Enter dolphins first score"));
 let dolphinsecondscore=Number(prompt("Enter dolphins second score"));
 let dolphinthirdscore=Number(prompt("Enter dolphins third score"));
 
-let kualasecondscore=Number(prompt("Enter kualas first score"));
-let kualansecondscore=Number(prompt("Enter kualas second score"));
-let kualathirdscore=Number(prompt("Enter kualas third score"));
+let kualasfirstscore=Number(prompt("Enter kualas first score"));
+let kualassecondscore=Number(prompt("Enter kualas second score"));
+let kualasthirdscore=Number(prompt("Enter kualas third score"));
 
 let dolphinaveragescore=(dophinsfirstscore+dolphinsecondscore+dolphinthirdscore)/3 ;
 {
 console.log(`dolphinaveragescore ${dolphinaveragescore}`);
 }
-let kualaaveragescore=( kualasecondscore+kualansecondscore+kualasecondscore)/3 ;
+let kualaaveragescore=( kualasfirstscore+kualassecondscore+kualasthirdscore)/3 ;
 console.log(`kualaaveragescore ${kualaaveragescore}`);
 if((dolphinaveragescore>kualaaveragescore)&&(dolphinaveragescore>=100))
 {
