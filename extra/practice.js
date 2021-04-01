@@ -342,8 +342,8 @@ else if ((dolphinaveragescore===kualaaveragescore)&&(dolphinaveragescore>=100)&&
 else
 console.log(`It is no winner`);
 */
-/*
 
+/*
 const day = prompt('Enter the day');
 switch(day){
       case 'monday':
@@ -367,30 +367,9 @@ switch(day){
          break;
      default :
          console.log('Invalid day');
-        
-}
-*/
-
+       */ 
 
 /*
-const day = prompt('Enter the day');
-
-if  (day === 'monday')
-        console.log('Take preparation for online classes');
-else if ( day === 'tuesday')
-        console.log('Take exam preparation ');
-else if ( day === 'wednesday')
-        console.log('Visiting outside');
-        console.log('making video tutorial');
-else if ( day === 'friday')
-        console.log('Hangout with friends');
-else if ( day === 'saturday' || day === 'sunday' )
-        console.log('office management');    
-        console.log('Teaching offline');
-else
-        console.log('Invalid day');
-  */  
-
 const day = prompt('Enter the day')
      if( day==='satarday')
       console.log('Take preparation for online class');
@@ -407,3 +386,47 @@ else if (day==='friday')
      console.log('prepare for going to play');
      else
        console.log ('Invalid Day');
+*/
+/*
+
+const day = prompt('Enter the day');
+
+if  (day === 'monday')
+        console.log('Take preparation for online classes');
+else if ( day === 'tuesday')
+        console.log('Take exam preparation ');
+else if ( day === 'wednesday')
+      { console.log('Visiting outside');
+        console.log('making video tutorial');}
+else if ( day === 'friday')
+        console.log('Hangout with friends');
+else if ( day === 'saturday' || day === 'sunday' )
+      {  console.log('office management');    
+        console.log('Teaching offline');}
+else
+        console.log('Invalid day');
+ */  
+ 
+
+const day=prompt('enter the day') ;
+switch(day){
+case 'saturday':
+    console.log('prepare for online class');
+    break;
+    case 'sunday':
+    console.log('prepare for offline class');
+    break;
+    case 'monday':
+    case 'tuesday':
+    console.log('Going outdoor');
+    console.log('makin video tutorial');
+    break;
+    case 'wednesday':
+    case 'thursday' :
+    console.log('Gotig to your library room');
+    console.log('Going to your lab room');
+case 'friday':
+    console.log('make your assignment');
+    default:
+    console.log('Invalid Day');
+    }
