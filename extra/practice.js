@@ -342,29 +342,68 @@ else if ((dolphinaveragescore===kualaaveragescore)&&(dolphinaveragescore>=100)&&
 else
 console.log(`It is no winner`);
 */
+/*
 
 const day = prompt('Enter the day');
-  {
-      if (day=='monday')
+switch(day){
+      case 'monday':
           console.log('Take preparation for online classes');
-    else if (day=='tuesday')
+          break;
+      case 'tuesday':
           console.log('Take exam preparation ');
-    else if(day=='wednesday')
+          break;
+      case 'Wednesday':
+      case 'thursday':
           console.log('Visiting outside');
-    else if(day=='thursday')      
           console.log('making video tutorial');
-    else if(day=='friday')
+          break;
+     case 'friday':
           console.log('Hangout with friends');
-    else if (day=='saturday')
+          break;
+     case 'Saturday':
+     case'sunday':
          console.log('office management');
-    else if (day=='sunday')     
          console.log('Teaching offline');
-     else
+         break;
+     default :
          console.log('Invalid day');
         
- }
+}
+*/
 
 
+/*
+const day = prompt('Enter the day');
 
+if  (day === 'monday')
+        console.log('Take preparation for online classes');
+else if ( day === 'tuesday')
+        console.log('Take exam preparation ');
+else if ( day === 'wednesday')
+        console.log('Visiting outside');
+        console.log('making video tutorial');
+else if ( day === 'friday')
+        console.log('Hangout with friends');
+else if ( day === 'saturday' || day === 'sunday' )
+        console.log('office management');    
+        console.log('Teaching offline');
+else
+        console.log('Invalid day');
+  */  
 
-
+const day = prompt('Enter the day')
+     if( day==='satarday')
+      console.log('Take preparation for online class');
+else if (day==='sunday' || day==='monday')
+     { console.log('take exam preparation');
+      console.log('take preparation for offline classes');}
+else if (day==='tuesday')
+      console.log('');
+else if (day==='wednesday' || day==='thursday')
+     {  console.log('going out with friends')
+       console.log('making video tutorial');
+     }
+else if (day==='friday')    
+     console.log('prepare for going to play');
+     else
+       console.log ('Invalid Day');
