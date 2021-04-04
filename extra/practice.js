@@ -440,26 +440,27 @@ age >= 18 ? console.log('I like to drink wine'): console.log ('I like to drink w
  const drink = age>= 18 ?'wine':'water'
  console.log(drink);
 */
-/* age=30;
-let drink2 = wine;
-let drink3 = water;
-
- if(age>=18)
- console.log('drink2');
- else
-  console.log('drink3');
-  */
- /*
  const age=30;
+ if(age>=18) {
+ let drink2='wine';
+ console.log(drink2);}
+ else
+ {let drink3 = 'water';
+      console.log(drink3);}
+  
+ /*
+const age=10;
 let drink2;
 if(age>=18)
 {
-     drink2='wine';
-    }
+ drink2='wine';
+ }
 else
    {
-        drink2='water';
-    }
-   console.log('drink2');*/
+    drink2='water';
+   }
+   console.log(drink2);
+ /*
    const age=18; //conditional ternary operator //
    console.log(`l like to drink ${age>=18 ?'wine':'water'}.`);
+*/
