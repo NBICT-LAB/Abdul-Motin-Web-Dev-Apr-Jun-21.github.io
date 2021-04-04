@@ -407,7 +407,7 @@ else
         console.log('Invalid day');
  */  
  
-
+/*
 const day=prompt('enter the day') ;
 switch(day){
 case 'saturday':
@@ -430,3 +430,4 @@ case 'friday':
     default:
     console.log('Invalid Day');
     }
+*/
