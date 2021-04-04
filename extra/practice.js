@@ -462,11 +462,10 @@ else
    }
    console.log(drink2);
    */
-
+/*
    const age=18; //conditional ternary operator //
    console.log(`l like to drink ${age>=18 ?'wine':'water'}.`);
-
-/*  // ternary operator //
+*/
+  // ternary operator //
 const age=30;
 age>30 ? console.log("I like to drink wine"):console.log("I like to drink water");
-*/
