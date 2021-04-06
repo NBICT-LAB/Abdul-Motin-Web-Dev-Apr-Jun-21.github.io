@@ -466,6 +466,18 @@ else
    const age=18; //conditional ternary operator //
    console.log(`l like to drink ${age>=18 ?'wine':'water'}.`);
 */
-  // ternary operator //
+  /*// ternary operator //
 const age=30;
 age>30 ? console.log("I like to drink wine"):console.log("I like to drink water");
+*/
+
+/*let billvalue =Num(prompt('Enter the bill value'));
+let tipvalue =Num(prompt('Enter tip value')) ;
+*/
+
+/*
+const bill=Number(prompt('Enter your bill:'));
+const tip =bill>=50 && bill<=300 ? bill*(15/100):bill*(20/100);
+
+console.log(`The bill was ${bill},the tip was ${tip},and the total value ${bill+tip}.`);
+*/

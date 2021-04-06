@@ -4,11 +4,28 @@
 <head>
     <title>JavaScript Practice</title>
     <script src="practice.js"></script>
+    <style>
+           #box1{
+               background-color: #9DCEFF;
+               width:400px;
+               height:200px;
+           }
+    </style>
+    <script>
+           function colorChange(element,color){
+            motin =document.getElementById(element);
+             motin.style.transition ="background 1s linear 0s"; 
+             motin.style.background =color; 
+           }
+    </script>
 </head>
 
 <body>
+       <button onclick="colorChange('box1','#F0F')">Click here to change colour</button>
 
+     <div id="box1">
+             The sample text will go hear.....
+     </div>
 </body>
 
 </html>
-console.log(typeof('2222'));
